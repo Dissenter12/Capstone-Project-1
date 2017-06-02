@@ -38,13 +38,6 @@ body * {
 	padding: 100px;
 	padding-bottom: 50px;	
 }
-/*.about-mepic {
-	background: url("../images/aboutpic.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	height: 70vh;
-	width: 30vh;
-}*/
 
 .aboutme-pic {
 	width: 30%;
@@ -66,7 +59,7 @@ body * {
   		padding-right: 0;
 
   	}
-}
+  	}
 
 .header-bg:hover {
 
@@ -157,34 +150,6 @@ body * {
 	margin-left: 100px;
 }
 
-ul.sidenav {
-	margin: 0 200px 0 600px;
-    list-style-type: none;
-    padding: 0;
-    background-color: #f1f1f1;
-    overflow: auto;
-    width: 50%;
-    height: auto;
-    position: relative;
-}
-
-ul.sidenav li a {
-    display: block;
-    color: #000;
-    text-decoration: none;
-    float: left;
-    padding: 15px;
-}
- 
-ul.sidenav li a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
 .menu-bg {
 background-image: url("../images/menu.png");
 background-size: cover;
@@ -292,8 +257,21 @@ footer {
 }	
 
 .border {
-	/*border: 2px solid white;*/
-	/*background-color: transparent;*/
+	/*border: 2px solid black;*/
 	min-height: 171px;
 	text-align: center;
+}
+
+.carousel {
+	width: 100%;
+}
+.carousel-container {
+	float: left;
+}
+.sidebar-links{
+	text-align: left;
+	padding-left: 80px;	
+}
+.container-width {
+	width: 60%;
 }
